@@ -2,14 +2,11 @@
   "name": "node-red-contrib-input-event",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "simon511000",
   "license": "MIT",
   "node-red": {
     "nodes": {
-      "key-press": "key-press.js"
+      "input-event": "input-event.js"
     }
   },
   "dependencies": {

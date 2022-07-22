@@ -2,7 +2,7 @@ console.log("Si là ça marche pas, je comprend rien...");
 
 module.exports = function(RED) {
     "use strict";
-    require('input-event');
+    var InputEvent = require('input-event');
 
     console.log("heuuu non ?");
     

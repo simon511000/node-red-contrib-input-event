@@ -10,7 +10,7 @@ module.exports = function(RED) {
 
         // Get keyboard device
         exec("ls /dev/input/by-path/ | grep -m 1 'kbd'", function(error, stdout, stderr) {
-            var device = stdout.split('\n')[0];
+            var device = "/dev/input/by-path/" + stdout.split('\n')[0];
 
             var input = new InputEvent(device);
             var keyboard = new InputEvent.Keyboard(input);

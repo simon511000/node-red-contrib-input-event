@@ -1,6 +1,8 @@
 module.exports = function(RED) {
     "use strict";
     require('input-event');
+
+    console.log("heuuu non ?");
     
     function KeyPressNode(config) {
         RED.nodes.createNode(this,config);

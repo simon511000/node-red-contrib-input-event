@@ -1,3 +1,5 @@
+console.log("Si là ça marche pas, je comprend rien...");
+
 module.exports = function(RED) {
     "use strict";
     require('input-event');

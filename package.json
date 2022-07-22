@@ -6,7 +6,7 @@
   "license": "MIT",
   "node-red": {
     "nodes": {
-      "input-event": "input-event.js"
+      "input-evente": "input-evente.js"
     }
   },
   "dependencies": {

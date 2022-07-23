@@ -10,6 +10,7 @@
     }
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "input-event": "^1.2.6"
   }
 }

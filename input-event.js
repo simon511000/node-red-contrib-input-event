@@ -1,6 +1,6 @@
 module.exports = function(RED) {
     "use strict";
-    var { uIOhook } = require('uiohook-napi');
+    var { InputEvent } = require('input-event');
     
     function KeyPressNode(config) {
         RED.nodes.createNode(this,config);

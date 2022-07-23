@@ -10,6 +10,6 @@
     }
   },
   "dependencies": {
-    "uiohook-napi": "^1.2.0"
+    "input-event": "^1.2.6"
   }
 }
